@@ -9,6 +9,10 @@
 	background-color: chocolate;
 }
 
+.logo{
+	float: left;
+}
+
 
 .links{
 	display: flex;

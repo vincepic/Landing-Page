@@ -11,6 +11,7 @@
 <body class="body">
 	<nav class="top-navigation">
 	 <div class="content">
+	  <img class="logo" src="images/karma-logo copy.svg" alt="logo image" width="26 px">
 	  <ul style="list-style-type:none" class="links">
 	   <li class="active">Meet Karma</li>
 	   <li>How it Works</li>
@@ -18,7 +19,7 @@
 	   <li>Blog</li>
 	   <li>Help</li>
 	   <li>Login</li>
-	  <img class="logo" src="images/karma-logo copy.svg" alt="logo image" width="26 px">
+	  </ul>
 	 </div>
 	</nav>
 
