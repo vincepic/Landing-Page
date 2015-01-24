@@ -13,11 +13,11 @@
 	 <div class="content">
 	  <ul class="links">
 	   <li class="active">Meet Karma</li>
-	   <li class="active">How it Works</li>
-	   <li class="active">Store</li>
-	   <li class="active">Blog</li>
-	   <li class="active">Help</li>
-	   <li class="active">Login</li>
+	   <li>How it Works</li>
+	   <li>Store</li>
+	   <li>Blog</li>
+	   <li>Help</li>
+	   <li>Login</li>
 	  <img class="logo" src="images/karma-logo copy.svg" alt="logo image" width="26 px">
 	 </div>
 	</nav>

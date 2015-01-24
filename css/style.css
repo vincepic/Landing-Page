@@ -3,9 +3,10 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-.top-navigation{
+.top-navigation,
+.logo{
+	height: 4.375rem;
 	background-color: chocolate;
-
 }
 
 
@@ -14,4 +15,12 @@
 	flex-flow: row, nowrap;
 	justify-content: space-around;
 	font-family: 'Roboto', sans-serif;
+}
+
+.links > li{
+	margin-top: 1.5rem;
+}
+
+.active{
+	font-variant: bold;
 }
