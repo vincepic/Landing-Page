@@ -26,16 +26,14 @@
 	flex-flow: row, nowrap;
 	justify-content: center;
 	font-family: 'Roboto', sans-serif;
-}
-
-.links > li{
-	margin-top: 1rem;
+	font-size: 1.04rem;
+	color: #838994;
+	margin-top: 1.7rem;
 }
 
 .active{
 	margin-right: 1.1em;
 	padding: .5em;
-	color: #838994;
 }
 
 .activeB{
