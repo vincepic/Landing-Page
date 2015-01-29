@@ -5,19 +5,21 @@
 
 .top-navigation,
 .logo{
+	margin-top: -.5em;
 	height: 4.375rem;
-	background-color: chocolate;
+	background-color: white;
 }
 
 .logo{
 	float: left;
+	margin-left: 15.5em;
 }
 
 
 .links{
 	display: flex;
 	flex-flow: row, nowrap;
-	justify-content: space-around;
+	justify-content: center;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -26,5 +28,12 @@
 }
 
 .active{
-	font-variant: bold;
+	margin-right: 1.1em;
+	color: #838994;
+}
+
+.activeB{
+	margin-right: 1.1em;
+	color: #4c5058;
+	font-weight: 600;
 }
