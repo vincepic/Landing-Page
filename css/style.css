@@ -1,12 +1,26 @@
 
+html,
+body,
+ul,
+li,
+div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
 .body{
 	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1;
 }
 
 .top-navigation{
-	margin-top: -0.8em;
 	background-color: white;
+	position: fixed;
+	width: 100%;
 	border-bottom: 1px solid #DDD;
 }
 
@@ -25,7 +39,6 @@
 
 .links{
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
@@ -40,5 +53,5 @@
 	margin-left: 1.563rem;
 	display: inline-block;
 	color: #4c5058;
-	font-weight: 600;
+	font-weight: 500;
 }
