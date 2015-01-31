@@ -44,14 +44,17 @@ div{
 	margin-top: 1.7rem;
 }
 
-.active{
+.links > li{
 	margin-left: 1.563rem;
 	display: inline-block;
 }
 
-.activeB{
-	margin-left: 1.563rem;
-	display: inline-block;
+.links > li:hover{
+	cursor: pointer;
+	color: #333333;
+}
+
+li.active{
 	color: #4c5058;
 	font-weight: 500;
 }

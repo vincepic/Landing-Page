@@ -13,12 +13,12 @@
 	 <div class="content">
 	  <img class="logo" src="images/karma-logo copy.svg" alt="logo image" width="26 px">
 	  <ul style="list-style-type:none" class="links">
-	   <li class="activeB">Meet Karma</li>
-	   <li class="active">How it Works</li>
-	   <li class="active">Store</li>
-	   <li class="active">Blog</li>
-	   <li class="active">Help</li>
-	   <li class="active">Login</li>
+	   <li class="active">Meet Karma</li>
+	   <li>How it Works</li>
+	   <li>Store</li>
+	   <li>Blog</li>
+	   <li>Help</li>
+	   <li>Login</li>
 	  </ul>
 	 </div>
 	</nav>
