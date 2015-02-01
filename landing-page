@@ -22,6 +22,12 @@
 	  </ul>
 	 </div>
 	</nav>
+	<section class="introduction">
+	 <img class="background" src="images/first-background copy.jpg">
+	 <div class="content">
+
+	 </div>
+	</section>
 
 </body>
 

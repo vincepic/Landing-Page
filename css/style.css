@@ -11,6 +11,15 @@ div{
 	box-sizing: border-box;
 }
 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
 .body{
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Roboto', sans-serif;
@@ -24,7 +33,7 @@ div{
 	border-bottom: 1px solid #DDD;
 }
 
-.top-navigation > .content{
+.top-navigation .content{
 	height: 4.375rem;
 	width: 60%;
 	min-width: 37.5rem;
@@ -37,25 +46,38 @@ div{
 	float: left;
 }
 
-.links{
+.top-navigation .links{
 	float: right;
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
 }
 
-.links > li{
+.top-navigation .links li{
 	margin-left: 1.563rem;
 	display: inline-block;
 	transition: color 0.1s ease;
 }
 
-.links > li:hover{
+.top-navigation .links li:hover{
 	cursor: pointer;
 	color: #333333;
 }
 
-li.active{
+.top-navigation .links .active{
 	color: #4c5058;
 	font-weight: 500;
 }
+
+
+/*display? float? position?*/
+
+.introduction{
+	width: 100%;
+}
+
+.introduction .background{
+	display: inline-block;
+}
+
+
