@@ -46,6 +46,7 @@ ol, ul {
 .logo{
 	height: 4.375rem;
 	float: left;
+	width: 26px;
 }
 
 .top-navigation .links{
@@ -53,6 +54,7 @@ ol, ul {
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
+	list-style-type: none;
 }
 
 .top-navigation .links li{
@@ -107,6 +109,7 @@ ol, ul {
 .introduction .button{
 	color: white;
 	text-align: center;
+	width: 100%;
 	display: inline-block;
 }
 
