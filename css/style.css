@@ -173,4 +173,53 @@ ol, ul {
 
 /*Begin Footer Section*/
 
+.social{
+	padding-bottom: 9.375rem;
+	overflow: auto;
+	text-align: center;
+}
+
+.social .content hr{
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+
+.social .content h5{
+	font-size: 100%;
+	font-weight: 400;
+}
+
+.social .content .icons{
+	list-style-type: none;
+}
+
+.social .content .icons li{
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	border-radius: 1.25rem;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+
+.social .content .icons .twitter{
+	color: #55acee;
+}
+
+.social .content .icons .facebook{
+	color: #4c66a4;
+}
+
+.social .content .icons .instagram{
+	color: #3f729b;
+}
+
+.social .content .copy{
+	color: #838994;
+	font-size: 0.9rem;
+	font-weight: 300;
+}
 
